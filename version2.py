@@ -30,8 +30,9 @@ def main():
     ex.extractZip(args, path_code)    
     #Run Acolite
     co.run_acolite(args, path_code, path_geojsons)
-    #Process the netCDF file
-    sf.sortFiles(path_code,args)#check this
+    #Sort files by sensing date in ascending order
+    sf.sortFiles(path_code,args)
+
     
 if __name__ == '__main__':
         main()
