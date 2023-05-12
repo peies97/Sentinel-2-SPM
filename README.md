@@ -2,7 +2,7 @@
 This script performs the following actions:
 
 	*Downloads the batch of L1C Sentinel-2 data from Copernicus 
-	 SciHub of the desired UTM zone and sensing dates in .zip files
+	 SciHub of the Emden Port zone and sensing dates in .zip files
 
 	*Extracts the .SAFE folder of each downloaded .zip. Then the .zip files are removed
 	
@@ -14,8 +14,11 @@ This script performs the following actions:
 	*Plots the time-space SPM variation of the Emden Port
 ______________________________________________________________
 
-Command-line: python version2.py --input IN --output OUT --start ddmmyyyy --end ddmmyyyy
+Command line: python version2.py --input IN --output OUT --start ddmmyyyy --end ddmmyyyy
 ______________________________________________________________
+
+Note: To specify a sensing period, you should write the starting sensing date and
+	the ending sensing date in the command line.
 
 Note: The downloaded Sentinel-2 batch is stored inside a folder parsed 
 	in the command line (or DEFAULT="IN"), located  in 'path_code'  
