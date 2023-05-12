@@ -17,7 +17,7 @@ ______________________________________________________________
 Command line: python version2.py --input IN --output OUT --start ddmmyyyy --end ddmmyyyy
 ______________________________________________________________
 
-Note: Acolite must be installed
+Note: Acolite must be installed.
 
 Note: To specify a sensing period, you should write the starting sensing date and
 	the ending sensing date in the command line.
@@ -30,8 +30,8 @@ Note: The corrected data from Acolite output is stored inside a folder
 	parsed in the command line (or DEFAULT='OUT') located in 
 	'path_code' (the same path as Acolite).
 
-Note: to subnet the downloaded data with a polygon [RECOMENDED], a 
-	.geojson with the desired polygon has to be added to the 
+Note: to subnet the downloaded data with a polygon. 
+	RECOMENDED: a .geojson with the desired polygon has to be added to the 
 	path_code folder.
 
 Note: A 'credentials.txt' file must be created in 'path_code' containing 
