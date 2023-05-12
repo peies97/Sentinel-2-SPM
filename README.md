@@ -17,6 +17,8 @@ ______________________________________________________________
 Command line: python version2.py --input IN --output OUT --start ddmmyyyy --end ddmmyyyy
 ______________________________________________________________
 
+Note: Acolite must be installed
+
 Note: To specify a sensing period, you should write the starting sensing date and
 	the ending sensing date in the command line.
 
@@ -49,16 +51,16 @@ Note: Although it is specific for Emden Port, it can be adjusted to fit other ar
 		    to run the script.
 		 
 *Required Libraries and modules:
-	acolite
-	matplotlib	
-	gdal
-	glob
-	numpy
-	csv	
-	sentinelsat
-	zipfile
-	netCDF4
-	json
-	pandas
+	acolite, 
+	matplotlib,	
+	gdal,
+	glob,
+	numpy,
+	csv,	
+	sentinelsat,
+	zipfile,
+	netCDF4,
+	json,
+	pandas,
 
 
