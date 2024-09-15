@@ -9,7 +9,7 @@ import csv
 first_element = []
 fifth_element = []
 
-csv_path=r"C:\Users\pauta\Desktop\Thesis\Code\export.csv"
+csv_path=
 with open(csv_path, 'r') as file:
     reader = csv.reader(file)
     for id_row, row in enumerate(reader):
