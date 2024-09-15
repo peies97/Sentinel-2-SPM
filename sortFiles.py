@@ -8,7 +8,7 @@ import os
 import shutil
 from datetime import datetime
 import argsParse as ap
-path=r"C:\Users\pauta\Desktop\Thesis\Code"
+path=
 args=ap.parse_options()
 def sortFiles(path,args):
     # set the path to the directory containing the files
